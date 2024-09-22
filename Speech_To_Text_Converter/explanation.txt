@@ -1,0 +1,7 @@
+there are two types of recognition process in this project .
+        1 - interim result 
+        2 - final result
+
+        interim result will listen the voice of user in simultaneously and convert the speech in to text show the data on box section
+
+

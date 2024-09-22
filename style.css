@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f3ff;
+    width: 100%;
+    height: 100vh;
+}
+
+.searchBox {
+    width: 44rem;
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+#google-img {
+    width: 30px;
+    cursor: pointer;
+}
+
+#mic {
+    width: 17px;
+    cursor: pointer;
+}
+
+#input {
+    background: transparent;
+    border: 0;
+    width: 85%;
+    font-size: 20px;
+    padding: 5px;
+}
+#input:focus {
+    outline: none;
+}
+
+@media (max-width:430px) {
+    #input::placeholder{
+        padding-left: 13px;
+    }
+}
